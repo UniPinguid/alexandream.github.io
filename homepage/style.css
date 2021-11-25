@@ -1,4 +1,17 @@
+*
+{
+    font-family: Roboto;
+}
+
 h1
 {
     color:red;
+}
+
+.searchBar
+{
+    border: 1px solid rgb(154 154 154);
+    border-radius:5px;
+    width:80%;
+    text-align:left;
 }
