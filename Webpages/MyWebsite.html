@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Website</title>
+    <link rel="stylesheet" href="MyWebsiteStyle.css" />
+
+    <script src="MyWebsite.js"></script>
+</head>
+
+<body>
+
+    <div class="navigation-bar">
+        <div class="logo">
+            <a href="MyWebsite.html">Unixe</a>
+        </div>
+
+        <div class="dropdown" style="margin-right:50px;">
+            <div class="dropdown-button">
+                <a href="MyWebsite.html" style="background-color:#52a3e6;color:#ffffff">Contact</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <div class="dropdown-button">
+                <a href="https://google.com">
+                    About
+                    <div class="arrow down"></div>
+                </a>
+            </div>
+
+            <div class="dropdown-content">
+                <a href="Webpages/ToggleButton.html">Toggle Button</a>
+                <a href="">Battery</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <div class="dropdown-button">
+                <a href="https://facebook.com">
+                    Projects
+                    <div class="arrow down"></div>
+                </a>
+            </div>
+            <div class="dropdown-content">
+                <a href="">Project 1</a>
+                <a href="">Project 2</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <div class="dropdown-button">
+                <a href="MyWebsite.html">Homepage</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="cover-image"></div>
+
+    <!-- Content -->
+    <div class="body-content">
+
+        <div class="introduction">
+            Unixe is a website established by UniPinguid, it involves<br />
+            many CSS and JavaScript element and templates that you can search for.
+        </div>
+
+        <!-- Opening container -->
+        <div class="container">
+            <div class="column">
+                <!-- Slideshow -->
+                <div class="slideshow-container">
+                    <div class="slide fade">
+                        <div class="index">1/4</div>
+                        <img src="css/images/landscape1.jpg" />
+                        <div class="text">Landscape 1</div>
+                    </div>
+
+                    <div class="slide fade">
+                        <div class="index">2/4</div>
+                        <img src="css/images/landscape2.jpg" />
+                        <div class="text">Landscape 2</div>
+                    </div>
+
+                    <div class="slide fade">
+                        <div class="index">3/4</div>
+                        <img src="css/images/landscape3.jpg" />
+                        <div class="text">Landscape 3</div>
+                    </div>
+
+                    <div class="slide fade">
+                        <div class="index">4/4</div>
+                        <img src="css/images/landscape4.jpg" />
+                        <div class="text">Landscape 4</div>
+                    </div>
+
+                    <!-- Next and previous button -->
+                    <div class="previous" onclick="plusSlide(-1)">&#10094;</div>
+                    <div class="next" onclick="plusSlide(1)">&#10095;</div>
+
+                    <!-- The dots/circles -->
+                    <div class="dots">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                    </div>
+                </div>
+                <!-- Ending slideshow -->
+
+            </div>
+
+            <div class="column">
+                <h1>Slideshow</h1>
+                <div style="color:white;">Slideshow results</div>
+            </div>
+        </div>
+        <!-- Ending container -->
+        <!-- Opening container -->
+        <div class="container">
+
+            <div class="column">
+                <p>Hello</p>
+            </div>
+
+            <div class="column">
+                <h1>Another</h1>
+                <button onclick="document.getElementById('click-me').style.backgroundColor='red'">Click me</button>
+                <div id="click-me" style="color:white;">This will change if you click the button</div>
+
+                <button onclick="result(1)">+1</button>
+                <div id="result_value" style="color:white;">1</div>
+            </div>
+
+        </div>
+        <!-- Closing container -->
+
+        <!-- Opening container -->
+        <div class="container">
+
+            <div class="column">
+                <p>Hello</p>
+            </div>
+
+            <div class="column">
+                <h1>Print page</h1>
+                <button onclick="window.print()">Print this page</button>
+            </div>
+
+        </div>
+        <!-- Closing container -->
+
+        <!-- Opening container -->
+        <div class="container">
+            <div class="column">
+                <p>Hello</p>
+            </div>
+
+            <div class="column">
+                <h1>Accordion</h1>
+
+                <button class="accordion">Section 1</button>
+                <div class="panel">
+                    <p>Hello</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- Closing container -->
+
+        <!-- Opening container -->
+        <div class="container">
+            <div class="column">
+                <p>Hello</p>
+            </div>
+
+            <div class="column">
+                <h1>Tab</h1>
+
+                <!-- Tab links -->
+                <div class="tab">
+                    <button class="tablinks" onclick="tabber(event, 'Tab1')">Tab 1</button>
+                    <button class="tablinks" onclick="tabber(event, 'Tab2')">Tab 2</button>
+                    <button class="tablinks" onclick="tabber(event, 'Tab3')">Tab 3</button>
+                </div>
+
+                <!-- Tab content -->
+                <div id="Tab1" class="tabcontent">
+                    <p>Tab 1</p>
+                </div>
+
+                <div id="Tab2" class="tabcontent">
+                    <p>Tab 2</p>
+                </div>
+
+                <div id="Tab3" class="tabcontent">
+                    <p>Tab 3</p>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- Closing container -->
+
+        <!-- Opening container -->
+        <div class="container">
+            <div class="column">Hello</div>
+            <div class="column">
+                <h1>Search Menu</h1>
+
+                <input type="text" id="searchBar" onkeyup="search()" placeholder="Search..." title="Type in a name" />
+
+                <ul id="searchMenu">
+                    <li><a href="#">Paul</a></li>
+                    <li><a href="#">John</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Closing container -->
+
+    </div>
+
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="content">
+            <div class="sub-content">
+                <p>Support</p>
+                <a href="">Contact Us</a><br />
+                <a href="">FAQ</a>
+            </div>
+
+            <div class="sub-content">
+                <p>Technical Issues</p>
+                <a href="">Report</a><br />
+                <a href="">Recommedation</a>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

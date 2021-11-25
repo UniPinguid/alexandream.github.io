@@ -1,0 +1,37 @@
+﻿body {
+}
+
+.myCheckbox-container {
+    
+}
+
+input[type=checkbox] {
+    -webkit-appearance: none;
+    outline: none;
+    width: 36px;
+    height: 36px;
+    background-color: #c5c5c5;
+    opacity:0.7;
+}
+
+input[type=checkbox]:hover {
+    opacity:1.0;
+}
+
+    input[type=checkbox]:checked {
+        background-color: #5cbc61;
+    }
+
+        input[type=checkbox]:checked:hover {
+            background-color: #45a54a;
+        }
+
+#ss {
+    background-image: url("../css/images/BuffIconAlchemist4xx.png");
+    background-size:cover;
+    width:24px;
+    height:32px;
+    position:relative;
+    top:-40px;
+    left:12px;
+}
