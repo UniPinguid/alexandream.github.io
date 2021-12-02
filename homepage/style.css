@@ -56,3 +56,16 @@
         text-align: left;
         float:left;
     }
+
+
+.cover-image {
+    width: 100%;
+    height: 720px;
+    background: url("/alexandream.github.io/images/homepage placeholder.png");
+    background-size: cover;
+    font-size: 24px;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
