@@ -30,6 +30,7 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
+        display:inline-block;
     }
 
     .navBar-container li {
@@ -50,6 +51,7 @@
 
     .navBar-container .logo-block {
         width: 400px;
+        display:block;
         text-align: left;
         font-family: Quicksand;
         color: white;
