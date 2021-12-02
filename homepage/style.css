@@ -22,7 +22,8 @@
 
     .navBar-container .logo-block {
         width: 240px;
-        display: inline-block;
+        display: flex;
+        align-items: center;
         float: left;
         margin-top: 12px;
     }
@@ -30,7 +31,7 @@
     .navBar-container .constrast {
         background-color: #FFB561;
         color: #212540;
-        border-radius:5px;
+        border-radius:12px;
     }
 
     .navBar-container img {
@@ -62,6 +63,7 @@
 
         .navBar-container li a {
             width: 100px;
+            margin:0px 16px 0px 16px;
             padding: 6px;
         }
 
