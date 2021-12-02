@@ -9,6 +9,8 @@
     top: 0px;
     left: 0px;
     background-color: #212540;
+    font-weight: bold;
+    font-family: Quicksand;
 }
 
     .navBar-container .constrast {
@@ -17,6 +19,7 @@
     }
 
     .navBar-container img {
+        width:64px;
         display: inline-block;
     }
 
@@ -41,8 +44,6 @@
         .navBar-container li a {
             width: 180px;
             height: 64px;
-            font-weight: bold;
-            font-family: Quicksand;
             color: white;
             outline: none;
             padding: 14px 16px;
@@ -53,7 +54,5 @@
         width: 400px;
         display:block;
         text-align: left;
-        font-family: Quicksand;
-        color: white;
         float:left;
     }
