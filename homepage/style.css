@@ -37,7 +37,6 @@
 
     .navBar-container ul {
         list-style-type: none;
-        margin-top: 32px;
         margin-right: 16px;
         padding: 0;
         overflow: hidden;
@@ -58,7 +57,6 @@
 
         .navBar-container li a {
             width: 180px;
-            height: 64px;
             padding: 6px;
         }
 
