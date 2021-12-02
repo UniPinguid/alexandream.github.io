@@ -10,6 +10,7 @@ h1
 
 .navBar-container {
     width: 100%;
+    height:96px;
     background-color: #212540;
 }
 
@@ -18,9 +19,10 @@ h1
     text-align:center;
     font-family:Quicksand;
     color:white;
+    display:inline-block;
 }
 
-    .navBar-container .contrast-block {
+    .navBar-container li a {
         width: 120px;
         text-align: center;
         font-family: Quicksand;
