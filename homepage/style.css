@@ -35,12 +35,12 @@
 
     .navBar-container li {
         display: inline-block;
-        width: 120px;
-        height: 64px;
         text-align: center;
     }
 
         .navBar-container li a {
+            width: 180px;
+            height: 64px;
             font-weight: bold;
             font-family: Quicksand;
             color: white;
