@@ -25,6 +25,7 @@
         display: flex;
         align-items: center;
         float: left;
+        margin-left: 24px;
     }
 
     .navBar-container .constrast {
