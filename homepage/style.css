@@ -27,6 +27,7 @@ h1
     }
 
         .navBar-container li a {
+            font-weight:bold;
             font-family: Quicksand;
             color: white;
             outline: none;
