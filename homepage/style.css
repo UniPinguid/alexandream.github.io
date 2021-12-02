@@ -14,6 +14,10 @@ h1
     background-color: #212540;
 }
 
+.navBar-container img {
+    display: inline-block;
+}
+
     .navBar-container .constrast {
         background-color: #FFB561;
         color: #212540;
