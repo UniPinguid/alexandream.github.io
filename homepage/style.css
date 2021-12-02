@@ -13,13 +13,19 @@
     font-family: Quicksand;
 }
 
+    .navBar-container a {
+        color: white;
+        outline: none;
+        text-decoration: none;
+    }
+
     .navBar-container .constrast {
         background-color: #FFB561;
         color: #212540;
     }
 
     .navBar-container img {
-        display: block;
+        display: inline-block;
         max-width: 400px;
         max-height: 48px;
         width: auto;
@@ -42,7 +48,6 @@
     .navBar-container .logo-block {
         width: 240px;
         display: inline-block;
-        text-align: left;
         float: left;
     }
 
@@ -54,10 +59,7 @@
         .navBar-container li a {
             width: 180px;
             height: 64px;
-            color: white;
-            outline: none;
             padding: 8px 24px 8px 24px;
-            text-decoration: none;
         }
 
 
