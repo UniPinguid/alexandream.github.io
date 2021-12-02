@@ -20,19 +20,30 @@
         display:inline-block;
     }
 
+    .navBar-container .logo-block {
+        width: 240px;
+        display: inline-block;
+        float: left;
+        margin-top: 12px;
+    }
+
     .navBar-container .constrast {
         background-color: #FFB561;
         color: #212540;
+        border-radius:5px;
     }
 
     .navBar-container img {
         display: inline-block;
         width: auto;
         height: auto;
+        vertical-align:bottom;
     }
 
     .navBar-container p {
         display: inline-block;
+        font-size:24px;
+        padding-left:24px;
     }
 
     .navBar-container ul {
@@ -44,19 +55,13 @@
         float:right;
     }
 
-    .navBar-container .logo-block {
-        width: 240px;
-        display: inline-block;
-        float: left;
-    }
-
     .navBar-container li {
         display: inline-block;
         text-align: center;
     }
 
         .navBar-container li a {
-            width: 180px;
+            width: 100px;
             padding: 6px;
         }
 
