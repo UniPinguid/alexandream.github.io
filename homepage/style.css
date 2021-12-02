@@ -8,12 +8,29 @@ h1
     color:red;
 }
 
-.searchBar
-{
-    border: 1px solid rgb(154 154 154);
-    border-radius:5px;
-    width:80%;
-    text-align:left;
-    margin:auto;
-    margin-top:64px;
+.navBar-container {
+    width: 100%;
+    background-color: #212540;
 }
+
+.navBar-container .block {
+    width:120px;
+    text-align:center;
+    font-family:Quicksand;
+    color:white;
+}
+
+    .navBar-container .contrast-block {
+        width: 120px;
+        text-align: center;
+        font-family: Quicksand;
+        color: #212540;
+        background-color: #FFB561;
+    }
+
+    .navBar-container .logo-block {
+        width: 120px;
+        text-align: center;
+        font-family: Quicksand;
+        color: white;
+    }
