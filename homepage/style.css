@@ -14,20 +14,17 @@ h1
     background-color: #212540;
 }
 
-.navBar-container .block {
-    width:120px;
-    text-align:center;
-    font-family:Quicksand;
-    color:white;
-    display:inline-block;
-}
+    .navBar-container .constrast {
+        width: 120px;
+        background-color: #FFB561;
+        color: #212540
+    }
 
     .navBar-container li a {
         width: 120px;
         text-align: center;
         font-family: Quicksand;
-        color: #212540;
-        background-color: #FFB561;
+        color: white;
     }
 
     .navBar-container .logo-block {
