@@ -34,6 +34,7 @@
     .navBar-container li {
         display: inline-block;
         width: 120px;
+        height: 64px;
         text-align: center;
     }
 
