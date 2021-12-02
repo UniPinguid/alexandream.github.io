@@ -15,21 +15,27 @@ h1
 }
 
     .navBar-container .constrast {
-        width: 120px;
         background-color: #FFB561;
-        color: #212540
+        color: #212540;
+    }
+
+    .navBar-container li {
+        text-decoration:none;
+        outline: none;
+        display:inline-block;
+        width:120px;
+        text-align:center;
+        padding:6px 12px 6px 12px;
     }
 
     .navBar-container li a {
-        width: 120px;
-        text-align: center;
         font-family: Quicksand;
         color: white;
     }
 
     .navBar-container .logo-block {
-        width: 120px;
-        text-align: center;
+        width: 400px;
+        text-align: left;
         font-family: Quicksand;
         color: white;
     }
