@@ -28,12 +28,12 @@
     }
 
     .navBar-container ul {
-        float:right;
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
         display:inline-block;
+        float:right;
     }
 
     .navBar-container li {
