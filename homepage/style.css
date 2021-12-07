@@ -12,7 +12,6 @@
     background-color: #212540;
     font-weight: bold;
     font-family: Quicksand;
-    font-size:26px;
 }
 
     .navBar-container a {
@@ -96,7 +95,7 @@
 .header {
     margin: auto;
     padding: 36px 0px 36px 0px;
-    font-size: 65px;
+    font-size: 54px;
     text-align: center;
     width: 100%;
     color: #FFB561;
@@ -104,13 +103,14 @@
 }
 
 .searchBar {
-    margin:auto;
+    margin: auto;
+    width: 80%;
+    height: 48px;
 }
 
     .searchBar input[type=text] {
         overflow: hidden;
+        border:none;
         border-radius: 16px;
         color: #B2B2B2;
-        width: 80%;
-        height: 48px;
     }
