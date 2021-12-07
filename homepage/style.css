@@ -3,6 +3,7 @@
 }
 
 .navBar-container {
+    font-family: Montserrat;
     width: 100%;
     height: 72px;
     position: fixed;
@@ -17,7 +18,7 @@
         color: white;
         outline: none;
         text-decoration: none;
-        display:inline-block;
+        display: inline-block;
     }
 
     .navBar-container .logo-block {
@@ -31,21 +32,21 @@
     .navBar-container .constrast {
         background-color: #FFB561;
         color: #212540;
-        border-radius:12px;
+        border-radius: 16px;
     }
 
     .navBar-container img {
         display: inline-block;
         width: auto;
         height: auto;
-        vertical-align:middle;
-        margin-bottom:15px;
+        vertical-align: middle;
+        margin-bottom: 15px;
     }
 
     .navBar-container p {
         display: inline-block;
-        font-size:24px;
-        padding-left:24px;
+        font-size: 24px;
+        padding-left: 24px;
     }
 
     .navBar-container ul {
@@ -53,8 +54,8 @@
         margin-right: 16px;
         padding: 0;
         overflow: hidden;
-        display:inline-block;
-        float:right;
+        display: inline-block;
+        float: right;
     }
 
     .navBar-container li {
@@ -64,10 +65,9 @@
 
         .navBar-container li a {
             width: 100px;
-            margin:0px 16px 0px 16px;
+            margin: 0px 16px 0px 16px;
             padding: 6px;
         }
-
 
 .cover-image {
     width: 100%;
@@ -75,8 +75,18 @@
     background: url("/alexandream.github.io/images/homepage placeholder.png");
     background-size: cover;
     font-size: 24px;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
     justify-content: center;
     display: flex;
     align-content: center;
     flex-direction: column;
+}
+
+.alexandream {
+    content: "Alexandream";
+    text-align: center;
+    margin: auto;
+    font-size: 72px;
+    font-family: Montserrat;
+    font-weight: bold;
 }
