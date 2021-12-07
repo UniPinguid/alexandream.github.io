@@ -12,6 +12,7 @@
     background-color: #212540;
     font-weight: bold;
     font-family: Quicksand;
+    font-size: 20px;
 }
 
     .navBar-container a {
@@ -30,6 +31,12 @@
         margin-left: 24px;
     }
 
+        .navBar-container .logo-block p {
+            display: inline-block;
+            font-size: 27px;
+            padding-left: 24px;
+        }
+
     .navBar-container .constrast {
         background-color: #FFB561;
         color: #212540;
@@ -42,12 +49,6 @@
         height: auto;
         vertical-align: middle;
         margin-bottom: 15px;
-    }
-
-    .navBar-container p {
-        display: inline-block;
-        font-size: 24px;
-        padding-left: 24px;
     }
 
     .navBar-container ul {
