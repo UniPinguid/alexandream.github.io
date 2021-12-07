@@ -12,6 +12,7 @@
     background-color: #212540;
     font-weight: bold;
     font-family: Quicksand;
+    font-size:30px;
 }
 
     .navBar-container a {
@@ -22,6 +23,7 @@
     }
 
     .navBar-container .logo-block {
+        font-size:36px;
         width: 240px;
         display: flex;
         align-items: center;
