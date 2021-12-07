@@ -81,6 +81,9 @@
 }
 
 .alexandream {
+    position:absolute;
+    top:50%;
+    left:50%;
     margin:12px 0px 12px 0px;
     text-align: center;
     width:100%;
@@ -89,17 +92,6 @@
     font-size: 96px;
     font-family: Montserrat;
     font-weight: bold;
-    padding:50% 0px;
-}
-
-.header {
-    margin: auto;
-    padding: 36px 0px 36px 0px;
-    font-size: 54px;
-    text-align: center;
-    width: 100%;
-    color: #FFB561;
-    font-weight:bold;
 }
 
 .searchBar {
@@ -110,9 +102,19 @@
 
     .searchBar input[type=text] {
         overflow: hidden;
-        border:none;
+        border: none;
         border-radius: 24px;
         color: #B2B2B2;
-        padding:18px;
-        width:100%;
+        padding: 18px;
+        width: 100%;
     }
+
+.header {
+    margin: auto;
+    padding: 36px 0px 36px 0px;
+    font-size: 54px;
+    text-align: center;
+    width: 100%;
+    color: #FFB561;
+    font-weight:bold;
+}
