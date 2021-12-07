@@ -83,10 +83,9 @@
 }
 
 .alexandream {
-    content: "Alexandream";
     text-align: center;
     margin: auto;
-    color:white;
+    color: white;
     font-size: 96px;
     font-family: Montserrat;
     font-weight: bold;
@@ -94,9 +93,21 @@
 
 .header {
     margin: auto;
-    padding: 12px 0px 12px 0px;
+    padding: 36px 0px 36px 0px;
+    font-size: 65px;
     text-align: center;
     width: 100%;
     color: #FFB561;
     font-weight:bold;
 }
+
+.searchBar {
+    width:80%;
+    height:48px;
+    margin:auto;
+    border-radius:16px;
+}
+
+    .searchBar input[type=text] {
+        color: #B2B2B2;
+    }
