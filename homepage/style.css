@@ -86,7 +86,17 @@
     content: "Alexandream";
     text-align: center;
     margin: auto;
-    font-size: 72px;
+    color:white;
+    font-size: 96px;
     font-family: Montserrat;
     font-weight: bold;
+}
+
+.header {
+    margin: auto;
+    padding: 12px 0px 12px 0px;
+    text-align: center;
+    width: 100%;
+    color: #FFB561;
+    font-weight:bold;
 }
