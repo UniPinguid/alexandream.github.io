@@ -147,25 +147,21 @@
     width:200px;
     height:200px;
     border: 1px solid gray;
-    border-radius:50px;
+    border-radius:50%;
 }
 
-    .member .leader {
-        border: 2px solid ##FFB561 !important;
+    .member name {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .member email {
+        font-size: 10px;
+        font-weight: lighter;
     }
 
     .member img {
         width:196px;
         height:196px;
         border-radius:50%;
-    }
-
-    .member name {
-        font-size:24px;
-        font-weight:bold;
-    }
-
-    .member email {
-        font-size:10px;
-        font-weight:lighter;
     }
