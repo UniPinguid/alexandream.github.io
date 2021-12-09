@@ -5,6 +5,14 @@
     margin: auto;
 }
 
+.slideshow-container img {
+    display:block;
+    width: auto;
+    height: auto;
+    max-width: 540px;
+    max-height: 420px;
+}
+
 /* Hide the images by default */
 .slideImage {
     display: none;
