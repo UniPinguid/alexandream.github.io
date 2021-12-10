@@ -134,6 +134,7 @@
 }
 
 .intro {
+    margin-left: 64px;
     width: 45%;
 }
 
@@ -217,22 +218,6 @@
         margin: 0px 8px;
     }
 
-        .footer a:link {
-            color: white;
-        }
-
-        .footer a:hover {
-            color: white;
-        }
-
-        .footer a:visited {
-            color: white;
-        }
-
-        .footer a:hover {
-            color: dimgray;
-        }
-
     .footer .block {
         display: flex;
         justify-content: space-evenly;
@@ -248,3 +233,19 @@
         .footer .block a {
             display: block;
         }
+
+            .footer .block a:link {
+                color: white;
+            }
+
+            .footer .block a:hover {
+                color: white;
+            }
+
+            .footer .block a:visited {
+                color: white;
+            }
+
+            .footer.block a:hover {
+                color: dimgray;
+            }
