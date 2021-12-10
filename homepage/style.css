@@ -226,27 +226,14 @@
     }
 
         .footer .block p {
-            color: #a5abd6;
-            font-weight: 500;
+            color: white;
+            font-weight: 400;
+            font-size: 13px;
         }
 
         .footer .block a {
+            margin-top: 6px;
             display: block;
             text-decoration: none;
+            color: #a5abd6;
         }
-
-            .footer .block a:link {
-                color: white;
-            }
-
-            .footer .block a:hover {
-                color: white;
-            }
-
-            .footer .block a:visited {
-                color: white;
-            }
-
-            .footer.block a:hover {
-                color: dimgray;
-            }
