@@ -81,7 +81,7 @@
     background-color: #212540;
     font-family: Quicksand;
     font-size: 10px;
-    color:white;
+    color: white;
 }
 
 .cover-image {
@@ -136,13 +136,13 @@
 }
 
 .section {
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    align-content:center;
-    width:90%;
-    margin:auto;
-    padding:24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 90%;
+    margin: auto;
+    padding: 24px;
 }
 
 .member {
@@ -150,16 +150,16 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width:210px;
-    height:210px;
+    width: 210px;
+    height: 210px;
     border: 1px solid gray;
-    border-radius:50%;
+    border-radius: 50%;
     margin: 32px 72px;
 }
 
     .member .name {
-        margin:auto;
-        text-align:center;
+        margin: auto;
+        text-align: center;
         font-size: 24px;
         font-weight: bold;
     }
@@ -172,10 +172,20 @@
     }
 
     .member img {
-        width:196px;
-        height:196px;
-        border-radius:50%;
-        margin:auto;
-        vertical-align:middle;
-        margin:8px 0px;
+        width: 196px;
+        height: 196px;
+        border-radius: 50%;
+        margin: auto;
+        vertical-align: middle;
+        margin: 8px 0px;
+    }
+
+.contact {
+    text-align: center;
+    width: 25%;
+}
+
+    .contact:first-child p {
+        font-size: 24px;
+        font-weight: bold;
     }
