@@ -203,6 +203,7 @@
 
     .footer a {
         text-decoration: none;
+        margin: 0px 8px;
     }
 
         .footer a:link {
@@ -223,5 +224,5 @@
 
     .footer div {
         width:25%;
-        margin: 24px 32px; 
+        margin: 48px 32px; 
     }
