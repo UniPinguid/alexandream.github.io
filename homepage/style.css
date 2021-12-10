@@ -223,6 +223,10 @@
         }
 
     .footer div {
-        width:25%;
-        margin: 48px 32px; 
+        width: 25%;
+        margin: 48px 32px;
     }
+
+        .footer div p {
+            color: #a5abd6;
+        }
