@@ -185,7 +185,11 @@
     width: 25%;
 }
 
-    .contact:first-child p {
+    .contact > p {
         font-size: 24px;
         font-weight: bold;
     }
+
+        .contact > p ~ p {
+            font-size: 11px;
+        }
