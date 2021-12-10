@@ -212,17 +212,16 @@
     color: #d1d4ed;
 }
 
-    .footer a .icon {
+    .footer .block a .icon {
         display: inline-block;
-        text-decoration: none;
         margin: 0px 8px;
     }
 
     .footer .block {
         display: flex;
         justify-content: space-evenly;
-        width: 25%;
-        margin: 48px 32px;
+        width: 100%;
+        padding: 48px 32px;
     }
 
         .footer .block p {
@@ -232,6 +231,7 @@
 
         .footer .block a {
             display: block;
+            text-decoration: none;
         }
 
             .footer .block a:link {
