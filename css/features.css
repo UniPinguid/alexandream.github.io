@@ -75,7 +75,7 @@
 .cover-image {
     width: 100%;
     height: 720px;
-    background: url("/alexandream.github.io/images/homepage placeholder.png");
+    background: url("/alexandream.github.io/images/features cover image.png");
     background-size: cover;
     font-size: 24px;
     box-shadow: inset 0 0 0 1000px rgba(33, 37, 64, 0.7);
@@ -95,22 +95,6 @@
     font-weight: 600;
     letter-spacing: -4px;
 }
-
-.searchBar {
-    margin: auto;
-    width: 80%;
-    height: 48px;
-}
-
-    .searchBar input[type=text] {
-        outline: none;
-        overflow: hidden;
-        border: none;
-        font-size: 16px;
-        border-radius: 50px;
-        padding: 16px 32px;
-        width: 100%;
-    }
 
 .header {
     margin: auto;
@@ -132,73 +116,15 @@
     padding: 24px;
 }
 
-.intro {
-    margin-left: 64px;
-    width: 45%;
+.ul li a {
+    outline: none;
+    overflow: hidden;
+    width: 120px;
+    height: 64px;
+    border-radius: 24px;
+    border: 2px solid ##212540;
+    margin: 24px 0px;
 }
-
-@media only screen and (max-width: 1200px) {
-    .intro {
-        flex-flow: column;
-        width: 100%;
-    }
-}
-
-.member {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 210px;
-    height: 210px;
-    border: 1px solid gray;
-    border-radius: 50%;
-    margin: 32px 72px;
-}
-
-    .member .name {
-        margin: auto;
-        text-align: center;
-        font-size: 24px;
-        font-weight: bold;
-    }
-
-    .member .email {
-        margin: auto;
-        text-align: center;
-        font-size: 14px;
-        font-weight: 300;
-    }
-
-    .member img {
-        width: 196px;
-        height: 196px;
-        border-radius: 50%;
-        margin: auto;
-        vertical-align: middle;
-        margin: 8px 0px;
-    }
-
-.contact {
-    text-align: center;
-    width: 25%;
-}
-
-    .contact > p {
-        font-size: 24px;
-        font-weight: bold;
-    }
-
-        .contact > p ~ p {
-            margin-top: -18px;
-            font-size: 11px;
-            font-weight: normal;
-        }
-
-    .contact img {
-        vertical-align: middle;
-        margin: 0px 6px;
-    }
 
 .footer {
     margin-top: 36px;
