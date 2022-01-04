@@ -1,5 +1,7 @@
-* {
-    font-family: Roboto;
+body {
+    margin: -4px 0px 0px -4px;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .navBar-container {
@@ -8,11 +10,10 @@
     justify-content: space-between;
     align-content: center;
     font-family: Quicksand;
-    width: 100%;
+    width: 100vw;
     height: 72px;
     background-color: #212540;
     font-weight: bold;
-    font-family: Quicksand;
     font-size: 20px;
 }
 
@@ -39,9 +40,11 @@
         }
 
     .navBar-container .constrast {
+        opacity: 1.0;
         background-color: #FFB561;
         color: #212540;
         border-radius: 16px;
+        font-weight: 900;
     }
 
     .navBar-container img {
@@ -67,15 +70,18 @@
     }
 
         .navBar-container li a {
+            opacity: 0.8;
             width: 100px;
-            margin: 12px 32px 0px 32px;
+            margin: 6px 18px 0px 18px;
             padding: 6px;
+            font-size: 18px;
+            font-weight: 500;
         }
 
 .cover-image {
-    width: 100%;
+    width: 100vw;
     height: 720px;
-    background: url("/alexandream.github.io/images/homepage placeholder.png");
+    background: url("../images/homepage placeholder.png");
     background-size: cover;
     font-size: 24px;
     box-shadow: inset 0 0 0 1000px rgba(33, 37, 64, 0.7);
@@ -86,10 +92,28 @@
     flex-flow: wrap;
 }
 
+    .cover-image#register {
+        width: 50%;
+        height: 720px;
+        background: url("../images/registration cover.png");
+        background-size: cover;
+        align-content: flex-end;
+    }
+
+.subtext {
+    margin: 64px 0px;
+    color: white;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 20%;
+}
+
 .alexandream {
     margin: 12px 0px 24px 0px;
     text-align: center;
-    width: 100%;
+    width: 100vw;
     color: white;
     font-size: 110px;
     font-family: Montserrat;
@@ -98,6 +122,7 @@
 }
 
 .searchBar {
+    position: relative;
     margin: auto;
     width: 80%;
     height: 48px;
@@ -118,7 +143,7 @@
     padding: 48px 0px;
     font-size: 54px;
     text-align: center;
-    width: 100%;
+    width: 100vw;
     color: #FFB561;
     font-weight: bold;
 }
@@ -128,20 +153,20 @@
     align-items: center;
     justify-content: center;
     align-content: center;
-    width: 90%;
+    width: 90vw;
     margin: auto;
     padding: 24px;
 }
 
 .intro {
     margin-left: 64px;
-    width: 45%;
+    width: 45vw;
 }
 
 @media only screen and (max-width: 1200px) {
     .intro {
         flex-flow: column;
-        width: 100%;
+        width: 100vw;
     }
 }
 
@@ -182,7 +207,7 @@
 
 .contact {
     text-align: center;
-    width: 25%;
+    width: 25vw;
 }
 
     .contact > p {
@@ -204,7 +229,7 @@
 .footer {
     margin-top: 36px;
     font-family: Quicksand;
-    width: 100%;
+    width: 100vw;
     height: 300px;
     background-color: #212540;
     font-family: Quicksand;
@@ -221,7 +246,7 @@
         display: flex;
         justify-content: space-evenly;
         flex-direction: row;
-        width: 100%;
+        width: 100vw;
         padding: 48px 32px;
     }
 

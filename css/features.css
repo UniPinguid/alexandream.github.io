@@ -1,3 +1,9 @@
+body {
+    margin: -4px 0px 0px -4px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 * {
     font-family: Roboto;
 }
@@ -8,11 +14,10 @@
     justify-content: space-between;
     align-content: center;
     font-family: Quicksand;
-    width: 100%;
+    width: 100vw;
     height: 72px;
     background-color: #212540;
     font-weight: bold;
-    font-family: Quicksand;
     font-size: 20px;
 }
 
@@ -39,6 +44,7 @@
         }
 
     .navBar-container .constrast {
+        opacity: 1.0;
         background-color: #FFB561;
         color: #212540;
         border-radius: 16px;
@@ -67,15 +73,18 @@
     }
 
         .navBar-container li a {
+            opacity: 0.8;
             width: 100px;
-            margin: 12px 32px 0px 32px;
+            margin: 6px 18px 0px 18px;
             padding: 6px;
+            font-size: 16px;
+            font-weight: 500;
         }
 
 .cover-image {
     width: 100%;
     height: 720px;
-    background: url("/alexandream.github.io/images/features cover image.png");
+    background: url("../images/features cover image.png");
     background-size: cover;
     font-size: 24px;
     box-shadow: inset 0 0 0 1000px rgba(33, 37, 64, 0.7);
@@ -99,9 +108,9 @@
 .subtitle {
     margin: 24px 96px;
     width: 50%;
-    color:white;
+    color: white;
     font-family: Montserrat;
-    font-weight:300;
+    font-weight: 300;
 }
 
 .header {
@@ -124,22 +133,22 @@
     padding: 24px;
 }
 
-ul li {
-    list-style-type: none;
-    margin: 24px 0px;
-}
+    .section ul li {
+        list-style-type: none;
+        margin: 24px 0px;
+    }
 
-ul a {
-    display: block;
-    width: 150px;
-    height: 32px;
-    padding: 9px 16px 0px 16px;
-    border: 2px solid #212540;
-    border-radius: 24px;
-    font-weight: bold;
-    color: #212540;
-    text-decoration: none;
-}
+    .section ul a {
+        display: block;
+        width: 150px;
+        height: 32px;
+        padding: 9px 16px 0px 16px;
+        border: 2px solid #212540;
+        border-radius: 24px;
+        font-weight: bold;
+        color: #212540;
+        text-decoration: none;
+    }
 
 .footer {
     margin-top: 36px;
