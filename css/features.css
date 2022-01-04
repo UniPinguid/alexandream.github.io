@@ -82,12 +82,12 @@
     display: flex;
     align-content: center;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-flow: wrap;
 }
 
 .title {
-    margin: 12px 0px 24px 64px;
+    margin: 12px 0px 24px 96px;
     width: 100%;
     color: white;
     font-size: 110px;
@@ -97,10 +97,11 @@
 }
 
 .subtitle {
-    margin: 24px 64px;
+    margin: 24px 96px;
     width: 50%;
     color:white;
     font-family: Montserrat;
+    font-weight:300;
 }
 
 .header {
@@ -123,7 +124,7 @@
     padding: 24px;
 }
 
-.ul li a {
+ul li a {
     outline: none;
     overflow: hidden;
     width: 120px;

@@ -1,0 +1,32 @@
+.logo-text {
+    margin:12px 24px;
+    font-family: Montserrat;
+    height:128px;
+}
+
+.page-header {
+    display:flex;
+    width:100%;
+}
+
+input[type=text] {
+    position:relative;
+    outline: none;
+    overflow: hidden;
+    border: none;
+    font-size: 16px;
+    border-radius: 40px;
+    padding: 8px 16px;
+    width: 80%;
+}
+
+.searchIcon {
+    position:absolute;
+    right:16px;
+    bottom:16px;
+}
+
+.advancedSearch {
+    width:64px;
+    height:64px;
+}
