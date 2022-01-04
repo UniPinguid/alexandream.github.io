@@ -1,0 +1,238 @@
+* {
+    font-family: Roboto;
+}
+
+.navBar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    font-family: Quicksand;
+    width: 100%;
+    height: 72px;
+    background-color: #212540;
+    font-weight: bold;
+    font-family: Quicksand;
+    font-size: 20px;
+}
+
+    .navBar-container a {
+        color: white;
+        outline: none;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .navBar-container .logo-block {
+        font-size: 30px !important;
+        width: 240px;
+        display: flex;
+        align-items: center;
+        float: left;
+        margin-left: 24px;
+    }
+
+        .navBar-container .logo-block p {
+            display: inline-block;
+            font-size: 27px;
+            padding-left: 24px;
+        }
+
+    .navBar-container .constrast {
+        background-color: #FFB561;
+        color: #212540;
+        border-radius: 16px;
+    }
+
+    .navBar-container img {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        vertical-align: middle;
+        margin-bottom: 15px;
+    }
+
+    .navBar-container ul {
+        list-style-type: none;
+        margin-right: 16px;
+        padding: 0;
+        overflow: hidden;
+        display: inline-block;
+        float: right;
+    }
+
+    .navBar-container li {
+        display: inline-block;
+        text-align: center;
+    }
+
+        .navBar-container li a {
+            width: 100px;
+            margin: 12px 32px 0px 32px;
+            padding: 6px;
+        }
+
+.cover-image {
+    width: 100%;
+    height: 720px;
+    background: url("/alexandream.github.io/images/homepage placeholder.png");
+    background-size: cover;
+    font-size: 24px;
+    box-shadow: inset 0 0 0 1000px rgba(33, 37, 64, 0.7);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.title {
+    margin: 12px 0px 24px 48px;
+    width: 100%;
+    color: white;
+    font-size: 110px;
+    font-family: Montserrat;
+    font-weight: 600;
+    letter-spacing: -4px;
+}
+
+.searchBar {
+    margin: auto;
+    width: 80%;
+    height: 48px;
+}
+
+    .searchBar input[type=text] {
+        outline: none;
+        overflow: hidden;
+        border: none;
+        font-size: 16px;
+        border-radius: 50px;
+        padding: 16px 32px;
+        width: 100%;
+    }
+
+.header {
+    margin: auto;
+    padding: 48px 0px;
+    font-size: 54px;
+    text-align: center;
+    width: 100%;
+    color: #FFB561;
+    font-weight: bold;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 90%;
+    margin: auto;
+    padding: 24px;
+}
+
+.intro {
+    margin-left: 64px;
+    width: 45%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .intro {
+        flex-flow: column;
+        width: 100%;
+    }
+}
+
+.member {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 210px;
+    height: 210px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin: 32px 72px;
+}
+
+    .member .name {
+        margin: auto;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .member .email {
+        margin: auto;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .member img {
+        width: 196px;
+        height: 196px;
+        border-radius: 50%;
+        margin: auto;
+        vertical-align: middle;
+        margin: 8px 0px;
+    }
+
+.contact {
+    text-align: center;
+    width: 25%;
+}
+
+    .contact > p {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+        .contact > p ~ p {
+            margin-top: -18px;
+            font-size: 11px;
+            font-weight: normal;
+        }
+
+    .contact img {
+        vertical-align: middle;
+        margin: 0px 6px;
+    }
+
+.footer {
+    margin-top: 36px;
+    font-family: Quicksand;
+    width: 100%;
+    height: 300px;
+    background-color: #212540;
+    font-family: Quicksand;
+    font-size: 14px;
+    color: #d1d4ed;
+}
+
+    .footer .block .icon {
+        display: inline-block;
+        margin: 0px 8px;
+    }
+
+    .footer .block {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 100%;
+        padding: 48px 32px;
+    }
+
+        .footer .block p {
+            color: white;
+            font-weight: 400;
+            font-size: 13px;
+        }
+
+        .footer .block a {
+            margin-top: 6px;
+            display: block;
+            text-decoration: none;
+            color: #a5abd6;
+        }
