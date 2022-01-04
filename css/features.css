@@ -124,14 +124,21 @@
     padding: 24px;
 }
 
-ul li a {
-    outline: none;
-    overflow: hidden;
-    width: 120px;
-    height: 64px;
-    border-radius: 24px;
-    border: 2px solid ##212540;
+ul li {
+    list-style-type: none;
     margin: 24px 0px;
+}
+
+ul a {
+    display: block;
+    width: 150px;
+    height: 32px;
+    padding: 9px 16px 0px 16px;
+    border: 2px solid #212540;
+    border-radius: 24px;
+    font-weight: bold;
+    color: #212540;
+    text-decoration: none;
 }
 
 .footer {
