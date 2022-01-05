@@ -4,8 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alexandream</title>
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/search.css" />
     <link rel="stylesheet" href="../css/book.css" />
+    <link rel="stylesheet" href="../css/login.css" />
 </head>
 <body>
     <!-- I. Navigation Bar -->
@@ -27,60 +27,53 @@
         </ul>
     </div>
 
-    <!-- Search header -->
-    <div class="page-header">
-        <div class="logo-text">
-            Alexandream <span style="font-weight:bold">Books</span>
-        </div>
-        <div class="search">
-            <input type="text" placeholder="Search for books and authors..." />
-            <div class="recommended-terms">
-                <span>Most search terms: </span>
-                <a href="#doraemon">Doraemon</a>
-                <a href="#nhagiakim">Nhà giả kim</a>
+    <!-- Cover image half left -->
+    <div style="display:flex; width:100vw">
+        <div class="cover-image" id="register" style="align-content: center;">
+            <div class="subtext">
+                <p style="font-weight: bold;">Alexandream</p><p>Book Storage</p>
             </div>
-            <div class="searchIcon" style="cursor: pointer"><img src="../images/svg/search.svg" width="34" /></div>
         </div>
-        <div style=" width: 64px; height: 64px;"><img src="../images/svg/advanced search.svg" width="32" /></div>
 
-    </div>
+        <!-- Input -->
+        <div style="padding:36px 64px; width:50%;">
+            <div class="title" style="margin: 36px 0px 72px 0px;">Add new book</div>
+            <div class="label">Book Name</div>
+            <input type="text" placeholder="Book name here..." />
 
-    <div style="display: flex; font-family: Quicksand; font-size: 20px;">
-        <!-- Book image -->
-        <div style="padding: 24px 32px">
-            <img width="500px" src="../../images/book/b0931283.jpg" />
-        </div>
-        <!-- Book info -->
-        <div style="padding: 24px 72px 24px 32px;">
-            <div style="width: 100%;">
-                <div class="book-info">
-                    <p style="font-weight:800; font-size: 48px;">BOOKNAME</p>
-                    <p style="font-weight:300; font-size: 36px;">AUTHORNAME</p>
+            <div style="height:50px;"></div>
+
+            <div style="display:flex; width:100%;">
+                <div style="width:50%; padding: 16px 0px;">
+                    <div class="label">Image</div>
+                    <input type="file" />
                 </div>
 
-                <div class="book-info" style="text-align:right; color: lightgray;">
-                    <p style="font-size: 16px;">BOOKIDHERE</p>
-                    <p style="font-size: 48px;">$9.99</p>
+                <div style="width:45%; padding: 16px 24px;">
+                    <div class="label">Genre</div>
+                    <select>
+                        <option>Novel</option>
+                        <option>Thrilled</option>
+                        <option>Fairy Tale</option>
+                    </select>
+
+                    <div class="label">Year produce</div>
+                    <input type="number" value="2021" />
+
+                    <div class="label">Price</div>
+                    <input type="text" placeholder="5.0" />
                 </div>
             </div>
 
-            <div class="title" style="margin-top:64px;">Description</div>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <div class="label">Author(s)</div>
+            <input type="text" placeholder="Author(s) name here..." />
 
-            <div class="title" style="display: inline-block">Status: </div>
-            <p style="display:inline-block;"> current status</p>
+            <div class="label">Description</div>
+            <textarea name="Text1" cols="40" rows="5"></textarea>
 
-            <!-- Buttons -->
-            <div>
-                <button>Borrow</button>
-                <button>Return</button>
-                <button>Report</button>
-                <button>Pay</button>
-            </div>
+            <button>Confirm</button>
         </div>
     </div>
-
-    <div class="header">You may also like</div>
 
     <!-- Website footer -->
     <div class="footer">

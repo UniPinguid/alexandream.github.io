@@ -94,7 +94,7 @@ body {
 
     .cover-image#register {
         width: 50%;
-        height: 720px;
+        height: auto;
         background: url("../images/registration cover.png");
         background-size: cover;
         align-content: flex-end;
