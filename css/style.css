@@ -138,6 +138,10 @@ body {
         width: 100%;
     }
 
+    .searchBar input[type=text]:hover {
+        outline: 5px solid gray;
+    }
+
 .header {
     margin: auto;
     padding: 48px 0px;
@@ -162,6 +166,7 @@ body {
 .intro {
     margin-left: 64px;
     width: 45vw;
+    font-family: Quicksand;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -181,6 +186,7 @@ body {
     border: 1px solid gray;
     border-radius: 50%;
     margin: 32px 72px;
+    font-family:Roboto;
 }
 
     .member .name {
@@ -209,6 +215,8 @@ body {
 .contact {
     text-align: center;
     width: 25vw;
+    font-family: Roboto;
+    margin-bottom: 36px;
 }
 
     .contact > p {
@@ -228,7 +236,6 @@ body {
     }
 
 .footer {
-    margin-top: 36px;
     font-family: Quicksand;
     width: 100vw;
     height: 300px;

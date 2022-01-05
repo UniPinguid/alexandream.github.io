@@ -5,6 +5,7 @@
     <title>Alexandream</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/search.css" />
+    <link rel="stylesheet" href="../css/book.css" />
 </head>
 <body>
     <!-- I. Navigation Bar -->
@@ -16,7 +17,7 @@
             </a>
         </div>
         <ul>
-            <li><a href="pages/features.html">Features</a></li>
+            <li><a href="../pages/features.html">Features</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -44,46 +45,43 @@
 
     </div>
 
-    <div style="display:flex; padding:0px 48px;">
-    <!-- Advanced Search -->
-        <div class="advancedSearch">
-            <div class="title">Advanced Search</div>
-
-            <div class="subtitle">Genre(s)</div>
-            <ul>
-                <li><label><input type="checkbox" />Novel</label></li>
-                <li><label><input type="checkbox" />Thrilled</label></li>
-                <li><label><input type="checkbox" />Fairy Tales</label></li>
-                <li><label><input type="checkbox" />Sci-fi</label></li>
-            </ul>
-
-            <div class="subtitle">Author</div>
-            <ul>
-                <li><label><input type="checkbox" />William Shakespear</label></li>
-                <li><label><input type="checkbox" />Leonardo di Carpio</label></li>
-                <li><label><input type="checkbox" />John Doe</label></li>
-            </ul>
-
-            <div class="subtitle">Pages</div>
-            <ul>
-                <li><label><input type="checkbox" />50 pages</label></li>
-                <li><label><input type="checkbox" />50+ pages</label></li>
-                <li><label><input type="checkbox" />100+ pages</label></li>
-                <li><label><input type="checkbox" />200+ pages</label></li>
-                <li><label><input type="checkbox" />400+ pages</label></li>
-                <li><label><input type="checkbox" />1,000+ pages</label></li>
-            </ul>
+    <div style="display: flex; font-family: Quicksand; font-size: 20px;">
+">
+        <!-- Book image -->
+        <div style="padding: 24px 32px">
+            <img width="500px" src="../../images/book/b0931283.jpg" />
         </div>
-    <!-- Search result -->
-        <div style="padding:64px;">
-            <a href="../pages/book.html">Test book</a>
+        <!-- Book info -->
+        <div style="padding: 24px 72px 24px 32px;">
+            <div style="width: 100%;">
+                <div class="book-info">
+                    <p style="font-weight:800; font-size: 48px;">BOOKNAME</p>
+                    <p style="font-weight:300; font-size: 36px;">AUTHORNAME</p>
+                </div>
+
+                <div class="book-info" style="text-align:right; color: lightgray;">
+                    <p style="font-size: 16px;">BOOKIDHERE</p>
+                    <p style="font-size: 48px;">$9.99</p>
+                </div>
+            </div>
+
+            <div class="title" style="margin-top:64px;">Description</div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+            <div class="title" style="display: inline-block">Status: </div>
+            <p style="display:inline-block;"> current status</p>
+
+            <!-- Buttons -->
+            <div>
+                <button>Borrow</button>
+                <button>Return</button>
+                <button>Report</button>
+                <button>Pay</button>
+            </div>
         </div>
     </div>
 
-    <!-- Coming soon... -->
-    <div class="section">
-        <div class="header">More Coming Soon...</div>
-    </div>
+    <div class="header">You may also like</div>
 
     <!-- Website footer -->
     <div class="footer">

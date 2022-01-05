@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alexandream</title>
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/slideshow.css" />
+    <link rel="stylesheet" href="../css/login.css" />
 </head>
 <body>
     <!-- I. Navigation Bar -->
@@ -27,7 +27,7 @@
     </div>
 
     <!-- Cover image half left -->
-    <div style="display:flex;">
+    <div style="display:flex; width:100vw">
         <div class="cover-image" id="register">
             <div class="subtext">
                 <p>Welcome back!</p><p style="font-weight:bold;font-size:140%;">Alexandream</p>
@@ -35,10 +35,17 @@
         </div>
 
         <!-- Input -->
-        <div>
+        <div style="padding:36px 64px; width:50%;">
+            <div class="title" style="margin: 36px 0px 72px 0px;">Login</div>
+            <div class="label">Username</div>
             <input type="text" placeholder="username" />
-            <br />
+            <div style="height:50px;"></div>
+            <div class="label">Password</div>
             <input type="password" />
+            <label>
+                <input type="checkbox" />Remember Me
+            </label>
+            <button>Login</button>
         </div>
     </div>
 
