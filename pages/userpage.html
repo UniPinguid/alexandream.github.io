@@ -3,7 +3,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alexandream</title>
-    <link rel="stylesheet" href="../css/features.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/user.css" />
 </head>
 <body>
     <!-- I. Navigation Bar -->
@@ -15,61 +16,29 @@
             </a>
         </div>
         <ul>
-            <li><a href="#features">Features</a></li>
+            <li><a href="../pages/features.html">Features</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
         <ul>
-            <li><a href="../pages/register.html">Sign Up</a></li>
+            <li><a href="#signup">Sign Up</a></li>
             <li><a href="../pages/login.html" class="constrast">Login</a></li>
         </ul>
     </div>
 
-    <!-- Cover image -->
-    <div class="cover-image">
-        <div class="title">Features</div>
-        <div class="subtitle">
-            <p><span style="font-weight:bold">Alexandream</span>  mainly features information of the real-life based library under website-coded development. In another meaning, Alexandream functions as equivalent to database systems.</p>
-            <p>This page includes two fundamental mechanics, Employee and Books.</p>
-        </div>
-    </div>
+    <!-- Wallpaper -->
+    <div class="wallpaper"></div>
 
-    <!-- Features -->
-    <div class="section">
-        <div>
-            <div class="header">Employees</div>
-            <ul>
-                <li><a href="#search">Search</a></li>
-                <li><a href="#recruit-employees">Recruit Employees</a></li>
-                <li><a href="#dismiss-employees">Dismiss Employees</a></li>
-            </ul>
+    <!-- Profile -->
+    <div style="display:flex;">
+        <div class="avatar" style="width:25%;">
+            <div class="status"></div>
         </div>
 
-        <div>
-            <div class="header">Books</div>
-            <ul>
-                <li><a href="search_books.html">Search books</a></li>
-                <li><a href="book_add.html">Add books</a></li>
-                <li><a href="#return-books">Return books</a></li>
-                <li><a href="#borrow-books">Borrow books</a></li>
-                <li><a href="#pay-books">Pay for books</a></li>
-                <li><a href="#report-loss">Report loss of books</a></li>
-            </ul>
+        <div style="font-family: Roboto; width:75%; padding: 36px 64px;">
+            <div class="username">USERNAME</div>
+            <p>First joined in January 24th, 2014</p>
         </div>
-
-        <div>
-            <div class="header">Others</div>
-            <ul>
-                <li><a href="../pages/register.html">Register</a></li>
-                <li><a href="#fine">Fine payment</a></li>
-                <li><a href="#make-report">Make a report</a></li>
-            </ul>
-        </div>
-    </div>
-
-    <!-- Coming soon... -->
-    <div class="section">
-        <div class="header">More Coming Soon...</div>
     </div>
 
     <!-- Website footer -->
@@ -101,5 +70,7 @@
 
         <p style="padding: 24px 32px;">Copyright 2021 Alexandream Team. All rights reserved.</p>
     </div>
+
+    <script src="../scripts/slideshow.js"></script>
 </body>
 </html>
