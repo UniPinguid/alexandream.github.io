@@ -5,6 +5,7 @@
     <title>Alexandream</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/user.css" />
+    <link rel="stylesheet" href="../css/tabber.css"
 </head>
 <body>
     <!-- I. Navigation Bar -->
@@ -16,13 +17,23 @@
             </a>
         </div>
         <ul>
-            <li><a href="../pages/features.html">Features</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li>
+                <a href="../pages/features.html">Features</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
         </ul>
         <ul>
-            <li><a href="#signup">Sign Up</a></li>
-            <li><a href="../pages/login.html" class="constrast">Login</a></li>
+            <li>
+                <a href="#signup">Sign Up</a>
+            </li>
+            <li>
+                <a href="../pages/login.html" class="constrast">Login</a>
+            </li>
         </ul>
     </div>
 
@@ -37,8 +48,127 @@
 
         <div style="font-family: Roboto; width:75%; padding: 36px 64px;">
             <div class="username">USERNAME</div>
-            <p>First joined in January 24th, 2014</p>
+            <p style="font-weight:300">First joined in January 24th, 2014</p>
         </div>
+    </div>
+
+    <!-- Tabbers -->
+    <!-- Tab links -->
+    <div class="tab">
+        <button id="defaultOpen" class="tablinks" onclick="tabTransition(event, 'info')">Information</button>
+        <button class="tablinks" onclick="tabTransition(event, 'history')">Book History</button>
+        <button class="tablinks" onclick="tabTransition(event, 'settings')">Settings</button>
+        <button class="tablinks" onclick="tabTransition(event, 'references')">References</button>
+    </div>
+
+    <!-- Tab content -->
+    <!---- Information ---->
+    <div id="info" class="tabcontent">
+        <div class="title">Information</div>
+        <p>TBA</p>
+    </div>
+
+    <!---- Book History ---->
+    <div id="history" class="tabcontent">
+        <!-- Books in Borrowing-->
+        <div class="title">Books in Borrowing</div>
+
+        <!-- Book entry -->
+        <div class="book-entry">
+            <img src="../../images/book/b0931283.jpg" />
+            <div class="info">
+                <p class="name">BOOKNAME</p>
+                <p class="author">AUTHOR</p>
+                <p class="id">BOOKIDHERE</p>
+            </div>
+            <div class="description">
+                <p style="font-size:24px; font-weight: 700">Description</p>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it
+                </p>
+            </div>
+            <div class="dropdown">
+                <img src="../../images/svg/advanced search.svg" width="32" />
+                <div class="dropdown-content">
+                    <a href="#return">Return</a>
+                    <a href="#report">Report for loss</a>
+                    <a href="#pay">Fine payment</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Books in Borrowing-->
+        <div class="title">Books in Return queue</div>
+
+        <!-- Book entry -->
+        <div class="book-entry">
+            <img src="../../images/book/b0931283.jpg" />
+            <div class="info">
+                <p class="name">BOOKNAME</p>
+                <p class="author">AUTHOR</p>
+                <p class="id">BOOKIDHERE</p>
+            </div>
+            <div class="description">
+                <p style="font-size:24px; font-weight: 700">Description</p>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it
+                </p>
+            </div>
+            <div class="invoice">
+                <div>
+                    <p id="days-borrowed">2</p> days
+                    <p id="cost-per-day">Total</p>
+                </div>
+
+                <div>
+                    <p>$0.3</p>
+                    <p id="total">$0.6</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Books in Loss-->
+        <div class="title">Books in Loss</div>
+
+        <!-- Book entry -->
+        <div class="book-entry">
+            <img src="../../images/book/b0931283.jpg" />
+            <div class="info">
+                <p class="name">BOOKNAME</p>
+                <p class="author">AUTHOR</p>
+                <p class="id">BOOKIDHERE</p>
+            </div>
+            <div class="description">
+                <p style="font-size:24px; font-weight: 700">Description</p>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it
+                </p>
+            </div>
+            <div class="dropdown">
+                <img src="../../images/svg/advanced search.svg" width="32" />
+                <div class="dropdown-content">
+                    <a href="#return">Return</a>
+                    <a href="#report">Report for loss</a>
+                    <a href="#pay">Fine payment</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="settings" class="tabcontent">
+        <div class="title">Settings</div>
+        <p>TBA</p>
+    </div>
+
+    <div id="references" class="tabcontent">
+        <div class="title">References</div>
+        <p>TBA</p>
     </div>
 
     <!-- Website footer -->
@@ -71,6 +201,6 @@
         <p style="padding: 24px 32px;">Copyright 2021 Alexandream Team. All rights reserved.</p>
     </div>
 
-    <script src="../scripts/slideshow.js"></script>
+    <script src="../scripts/tabber.js"></script>
 </body>
 </html>

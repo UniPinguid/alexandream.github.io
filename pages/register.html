@@ -5,6 +5,7 @@
     <title>Alexandream</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/slideshow.css" />
+    <link rel="stylesheet" href="../css/login.css" />
 </head>
 <body>
     <!-- I. Navigation Bar -->
@@ -27,14 +28,33 @@
     </div>
 
     <!-- Cover image half left -->
-    <div style="width:100%">
+    <div style="display: flex; width:100vw">
         <div class="cover-image" id="register">
             <div class="subtext">
                 <p>Welcome to </p><p style="font-weight:bold;font-size:140%;">Alexandream</p>
             </div>
         </div>
+
+        <!-- Input -->
+        <div style="padding:36px 64px; width:50%;">
+            <div class="title" style="margin: 36px 0px 72px 0px;">Registration</div>
+            <div class="label">Full name</div>
+            <input type="text" placeholder="John Andrick Doe" />
+            <div class="label">Birthday</div>
+            <input type="date" placeholder="mm/dd/yyyy" />
+            <div class="label">Email</div>
+            <input type="email" placeholder="example@alexandream.com" />
+            <div class="label">Address</div>
+            <input type="text" placeholder="E.g. 227 Nguyen Van Cu, Ward 4, District 5, Ho Chi Minh City" />
+            <label>
+                <input type="checkbox" />By creating an account, you are confined with Alexandream's Terms and Services, Privacy Policy, and Notifications of Alexandream.
+            </label>
+            <button>Submit</button>
+        </div>
     </div>
+
     
+
 
     <!-- Website footer -->
     <div class="footer">

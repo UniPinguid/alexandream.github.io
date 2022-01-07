@@ -17,9 +17,14 @@
     background-size: cover;
     border-radius: 50%;
     margin: -50px 0px 0px 80px;
-    outline-offset: 4px;
-    outline: 4px solid #949bcb;
+    outline: 4px solid white;
 }
+
+    .avatar:hover {
+        transition: 0.2s;
+        outline: 5px solid #42e96c;
+        cursor: pointer;
+    }
 
 .status {
     position: absolute;
@@ -34,5 +39,103 @@
 .username {
     display: inline-block;
     font-family: Roboto;
-    font-size: 48px;
+    font-size: 54px;
 }
+
+.title {
+    padding: 64px 0px 16px 0px;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFB561;
+}
+
+.book-entry {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    font-family: Roboto;
+}
+
+    .book-entry img {
+        max-width: 160px;
+        max-height: 160px;
+    }
+
+    .book-entry .info {
+        padding: 0px 24px;
+    }
+
+        .book-entry .info .name {
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        .book-entry .info .author {
+            margin-top: -24px;
+            font-size: 18px;
+        }
+
+        .book-entry .info .id {
+            margin-top: 32px;
+            font-size: 15px;
+            color: gray;
+        }
+
+    .book-entry .description {
+        padding: 0px 32px;
+    }
+
+    .book-entry .dropdown {
+        position:relative;
+        display: block;
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+    }
+
+    .book-entry .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .book-entry .dropdown-content {
+        position: absolute;
+        top: 9px;
+        right: -6px;
+        display: none;
+        padding: 9px;
+        width: 160px;
+        height: auto;
+        border: 1px solid gray;
+        border-radius: 12px;
+        background-color: white;
+    }
+
+    .book-entry .dropdown a {
+        display: block;
+        padding: 8px 12px;
+        text-decoration: none;
+        color: #7a7fa2;
+    }
+
+        .book-entry .dropdown a:active {
+            color: #212540;
+        }
+
+    .book-entry .dropdown a:hover {
+        background-color: #f0f0f0;
+    }
+
+    .book-entry .invoice {
+        display: flex;
+        align-items: flex-end;
+        align-content: stretch;
+        justify-content: flex-end;
+        width: 240px;
+        font-size: 14px;
+        line-height: 80%;
+    }
+
+    .book-entry .invoice p {
+        display: inline-block;
+    }
