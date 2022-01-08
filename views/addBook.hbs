@@ -1,0 +1,49 @@
+<form action="./add-books" method="post">
+    <!-- Cover image half left -->
+    <div style="display:flex; width:100vw">
+        <div class="cover-image" id="register" style="align-content: center;">
+            <div class="subtext">
+                <p style="font-weight: bold;">Alexandream</p><p>Book Storage</p>
+            </div>
+        </div>
+
+        <!-- Input -->
+        <div style="padding:36px 64px; width:50%;">
+            <div class="title" style="margin: 36px 0px 72px 0px;">Add new book</div>
+            <div class="label">Book Name</div>
+            <input type="text" placeholder="Book name here..." name="bookname" />
+
+            <div style="height:50px;"></div>
+
+            <div style="display:flex; width:100%;">
+                <div style="width:50%; padding: 16px 0px;">
+                    <div class="label">Image</div>
+                    <input style="margin-top:24px;" type="file" />
+                </div>
+
+                <div style="width:45%; padding: 16px 24px;">
+                    <div class="label">Genre</div>
+                    <select name="genre">
+                        <option>Novel</option>
+                        <option>Thrilled</option>
+                        <option>Fairy Tale</option>
+                    </select>
+
+                    <div class="label">Year produce</div>
+                    <input type="number" name="yearproduce" value="2021" />
+
+                    <div class="label">Price</div>
+                    <input type="text" name="price" placeholder="5.0" />
+                </div>
+            </div>
+
+            <div class="label">Author(s)</div>
+            <input type="text" name="author" placeholder="Author(s) name here..." />
+ 
+            <div class="label" style="margin:20px 0px;">Description</div>
+            <textarea class="description" name="decription"></textarea>
+
+            <button type="submit">Confirm</button>
+        </div>
+    </div>
+</form>
