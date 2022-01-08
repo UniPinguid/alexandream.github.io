@@ -1,26 +1,26 @@
-<div class="container">
-	<div class="screen">
-		<div class="screen__content">
-			<form action="/login" method="post" class="login">
-				<div class="login__field">
-					<i class="login__icon fas fa-user"></i>
-					<input type="text" class="login__input" placeholder="User name / Email" name="username">
+<div class="card">
+    <div class="card-body">
+        <form method="post" action="./login">
+            <div class="form-group">
+                <label for="Username">Username</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="Enter username">
+            </div>
+            <div class="form-group">
+                <label for="Password">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label for="vaitro">Vai trò</label>
+                <input type="text" class="form-control" id="vaitro" name="vaitro" placeholder="Nhập vai trò">
+            </div>
+			{{#if msg}}
+				<div class="form-group">
+					{{msg}}
 				</div>
-				<div class="login__field">
-					<i class="login__icon fas fa-lock"></i>
-					<input type="password" class="login__input" placeholder="Password" name="password">
-				</div>
-				<button class="button login__submit" type="submit">
-					<span class="button__text">Log In Now</span>
-					<i class="button__icon fas fa-chevron-right"></i>
-				</button>				
-			</form>
-		</div>
-		<div class="screen__background">
-			<span class="screen__background__shape screen__background__shape4"></span>
-			<span class="screen__background__shape screen__background__shape3"></span>		
-			<span class="screen__background__shape screen__background__shape2"></span>
-			<span class="screen__background__shape screen__background__shape1"></span>
-		</div>		
-	</div>
+			{{/if}}
+            <div class="form-group text-right">
+                <button type="submit" class="btn btn-warning">Sign in</button>
+            </div>
+        </form>
+    </div>
 </div>
