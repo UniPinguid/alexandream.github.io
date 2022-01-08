@@ -19,6 +19,7 @@
 }
 
 .recommended-terms {
+    font-family: Roboto;
     font-size: 14px;
 }
 
@@ -35,7 +36,7 @@ input[type=text] {
     border-radius: 40px;
     margin: 24px 0px;
     border: 1px solid #4d537d;
-    padding: 8px 16px;
+    padding: 10px 24px;
     color: #4d537d;
     width: 100%;
 }
@@ -54,11 +55,36 @@ input[type=text] {
 
 .searchIcon {
     position: absolute;
-    right: 6px;
-    top: 27px;
+    right: 8px;
+    top: 28px;
 }
 
 .advancedSearch {
-    width: 64px;
-    height: 64px;
+    font-family: Roboto;
+    font-size:18px;
+}
+
+.advancedSearch ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.advancedSearch ul li {
+    padding: 6px 12px;
+    font-size: 16px;
+}
+
+.title {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFB561;
+}
+
+.subtitle {
+    font-family: Roboto;
+    font-size: 20px;
+    margin: 36px 0px 12px 12px;
+    font-weight: bold;
+    color: #212540;
 }

@@ -8,6 +8,13 @@ module.exports = {
     },
     get: async(fieldName,value) => {
         const res = await db.get(tbName,fieldName,value);
-        return res;
+        if(res.length > 0){
+            return res[0];
+        }
+        return null;
+    },
+    add: async(value) => {
+        strValue = `'${Object.values(value)[0]}','${Object.values(value)[1]}','${Object.values(value)[2]}'`
+        db.insert(tbName,strValue);
     }
 }
