@@ -152,6 +152,11 @@ body {
             font-family: Roboto;
         }
 
+        .section ul a:hover {
+            outline: 1px solid gray;
+            background-color: #f4dcc4;
+        }
+
 .footer {
     margin-top: 36px;
     font-family: Quicksand;
