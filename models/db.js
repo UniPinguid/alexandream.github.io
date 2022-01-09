@@ -15,7 +15,6 @@ exports.load = async (tbName) => {
     // make sure that any items are correctly URL encoded in the connection string
     let pool = await sql.connect(sqlConfig);
     const result = await pool.request().query(`select * from ${tbName}`);
-    //console.log(result.recordset);
     return result.recordset;
   } catch (err) {
     console.log(err);
