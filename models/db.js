@@ -37,8 +37,7 @@ exports.insert = async (tbName,stringValue) => {
   try {
     // make sure that any items are correctly URL encoded in the connection string
     let pool = await sql.connect(sqlConfig);
-    const query = `insert into ${tbName} values (${stringValue})`;
-    console.log(query);
+    const query = `insert into ${tbName} values (${stringValue})`;    
     const result = await pool.request().query(query);
   } catch (err) {
     console.log(err);

@@ -1,90 +1,90 @@
 .logo-text {
-    margin: 12px 24px;
-    font-family: Montserrat;
-    height: 128px;
+  margin: 12px 24px;
+  font-family: Montserrat;
+  height: 128px;
 }
 
 .page-header {
-    display: flex;
-    width: 100%;
-    font-size: 24px;
-    justify-content: space-around;
-    align-items: baseline;
+  display: flex;
+  width: 100%;
+  font-size: 24px;
+  justify-content: space-around;
+  align-items: baseline;
 }
 
 .search {
-    position: relative;
-    display: block;
-    width: 70%;
+  position: relative;
+  display: block;
+  width: 70%;
 }
 
 .recommended-terms {
-    font-family: Roboto;
-    font-size: 14px;
+  font-family: Roboto;
+  font-size: 14px;
 }
 
-    .recommended-terms a {
-        text-decoration: underline;
-        color: #4d537d;
-        margin: 0px 12px;
-    }
-
-input[type=text] {
-    outline: none;
-    overflow: hidden;
-    font-size: 16px;
-    border-radius: 40px;
-    margin: 24px 0px;
-    border: 1px solid #4d537d;
-    padding: 10px 24px;
-    color: #4d537d;
-    width: 100%;
+.recommended-terms a {
+  text-decoration: underline;
+  color: #4d537d;
+  margin: 0px 12px;
 }
 
-    input[type=text]:hover {
-        outline: 1px solid #4d537d;
-    }
+input[type="text"] {
+  outline: none;
+  overflow: hidden;
+  font-size: 16px;
+  border-radius: 40px;
+  margin: 24px 0px;
+  border: 1px solid #4d537d;
+  padding: 10px 24px;
+  color: #4d537d;
+  width: 100%;
+}
+
+input[type="text"]:hover {
+  outline: 1px solid #4d537d;
+}
 
 ::placeholder {
-    color: lightgray;
+  color: lightgray;
 }
 
-    ::placeholder:hover {
-        color: #4d537d;
-    }
+::placeholder:hover {
+  color: #4d537d;
+}
 
 .searchIcon {
-    position: absolute;
-    right: 8px;
-    top: 28px;
+  position: absolute;
+  right: 8px;
+  top: 28px;
 }
 
 .advancedSearch {
-    font-family: Roboto;
-    font-size:18px;
+  font-family: Roboto;
+  font-size: 18px;
 }
 
 .advancedSearch ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .advancedSearch ul li {
-    padding: 6px 12px;
-    font-size: 16px;
+  padding: 6px 12px;
+  font-size: 16px;
 }
 
 .title {
-    font-family: Roboto;
-    font-size: 24px;
-    font-weight: bold;
-    color: #FFB561;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffb561;
 }
 
 .subtitle {
-    font-family: Roboto;
-    font-size: 20px;
-    margin: 36px 0px 12px 12px;
-    font-weight: bold;
-    color: #212540;
+  font-family: Roboto;
+  font-size: 20px;
+  margin: 36px 0px 12px 12px;
+  font-weight: bold;
+  color: #212540;
 }
